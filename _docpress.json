@@ -169,6 +169,6 @@
     "README.md": "index.html",
     "docs/course_details.md": "course_details.html",
     "docs/software_install.md": "software_install.html",
-    "docs/docpress.json": "docpress.json"
+    "docs/stylesheet.css": "stylesheet.css"
   }
 }
