@@ -1,0 +1,13 @@
+{
+  "github": "zeroby0/Basic-Electronics",
+  "css": [
+    "http://ricostacruz.com/docpress-rsc/style.css"
+  ],
+  "markdown": {
+    "plugins": {
+      "decorate": {}
+    }
+  },
+  "docs": "src",
+  "dist": "docs"
+}

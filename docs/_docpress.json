@@ -1,0 +1,116 @@
+{
+  "toc": {
+    "sections": [
+      {
+        "title": "Basic Electronics",
+        "source": "README.md",
+        "url": "index.html",
+        "slug": "index",
+        "sections": [
+          {
+            "title": "Course Details",
+            "source": "src/course_details.md",
+            "url": "course_details.html",
+            "slug": "course_details",
+            "headings": [
+              {
+                "title": "Exams",
+                "depth": 2,
+                "id": "exams"
+              },
+              {
+                "title": "Experiments",
+                "depth": 2,
+                "id": "experiments"
+              },
+              {
+                "title": "Textbook",
+                "depth": 2,
+                "id": "textbook"
+              },
+              {
+                "title": "Lab reports and assignments",
+                "depth": 2,
+                "id": "lab-reports-and-assignments"
+              },
+              {
+                "title": "Quizzes and Assignments",
+                "depth": 2,
+                "id": "quizzes-and-assignments"
+              },
+              {
+                "title": "Final Project",
+                "depth": 2,
+                "id": "final-project"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Software",
+        "source": "src/software_install.md",
+        "url": "software_install.html",
+        "slug": "software_install"
+      }
+    ]
+  },
+  "index": {
+    "index.html": {
+      "source": "README.md",
+      "title": "Basic Electronics",
+      "pageTitle": "Basic Electronics",
+      "slug": "index"
+    },
+    "course_details.html": {
+      "source": "src/course_details.md",
+      "title": "Course Details - Basic Electronics",
+      "pageTitle": "Course Details",
+      "slug": "course_details",
+      "headings": [
+        {
+          "title": "Exams",
+          "depth": 2,
+          "id": "exams"
+        },
+        {
+          "title": "Experiments",
+          "depth": 2,
+          "id": "experiments"
+        },
+        {
+          "title": "Textbook",
+          "depth": 2,
+          "id": "textbook"
+        },
+        {
+          "title": "Lab reports and assignments",
+          "depth": 2,
+          "id": "lab-reports-and-assignments"
+        },
+        {
+          "title": "Quizzes and Assignments",
+          "depth": 2,
+          "id": "quizzes-and-assignments"
+        },
+        {
+          "title": "Final Project",
+          "depth": 2,
+          "id": "final-project"
+        }
+      ]
+    },
+    "software_install.html": {
+      "source": "src/software_install.md",
+      "title": "Software - Basic Electronics",
+      "pageTitle": "Software",
+      "slug": "software_install"
+    }
+  },
+  "sources": {
+    "README.md": "index.html",
+    "src/course_details.md": "course_details.html",
+    "src/software_install.md": "software_install.html",
+    "src/docpress.json": "docpress.json"
+  }
+}
