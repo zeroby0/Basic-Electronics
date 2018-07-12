@@ -7,7 +7,5 @@
     "plugins": {
       "decorate": {}
     }
-  },
-  "docs": "src",
-  "dist": "docs"
+  }
 }

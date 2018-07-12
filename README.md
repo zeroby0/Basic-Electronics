@@ -22,5 +22,5 @@ This is an introductory laboratory course on electronics. Concepts includes: pas
 
 
 Let's get started by installing the software required for the course.
-[Continue →](src/software_install.md)
+[Continue →](docs/software_install.md)
 <!-- {p:.pull-box} -->
