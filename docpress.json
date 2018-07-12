@@ -7,5 +7,9 @@
     "plugins": {
       "decorate": {}
     }
+  },
+  "googleAnalytics": {
+    "id": "UA-71610976-3",
+    "domain": "bel.aravindvoggu.in"
   }
 }

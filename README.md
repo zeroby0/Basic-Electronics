@@ -1,4 +1,4 @@
-##### Viewing this from GitHub? Visit the website for the full experience. **[Basic Electronics →](https://zeroby0.github.io/Basic-Electronics/)**
+##### Viewing this from GitHub? Visit the website for the full experience. **[Basic Electronics →](https://bel.aravindvoggu.in)**
 <!-- {h5: style='display:none'} -->
 
 ----
