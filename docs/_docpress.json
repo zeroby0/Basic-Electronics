@@ -6,6 +6,13 @@
         "source": "README.md",
         "url": "index.html",
         "slug": "index",
+        "headings": [
+          {
+            "title": "Introduction",
+            "depth": 2,
+            "id": "introduction"
+          }
+        ],
         "sections": [
           {
             "title": "Course Details",
@@ -51,7 +58,29 @@
         "title": "Software",
         "source": "src/software_install.md",
         "url": "software_install.html",
-        "slug": "software_install"
+        "slug": "software_install",
+        "headings": [
+          {
+            "title": "Arduino IDE",
+            "depth": 2,
+            "id": "arduino-ide"
+          },
+          {
+            "title": "Atom or VSCode",
+            "depth": 2,
+            "id": "atom-or-vscode"
+          },
+          {
+            "title": "PlatformIO IDE",
+            "depth": 2,
+            "id": "platformio-ide"
+          },
+          {
+            "title": "GNUPlot",
+            "depth": 2,
+            "id": "gnuplot"
+          }
+        ]
       }
     ]
   },
@@ -60,7 +89,14 @@
       "source": "README.md",
       "title": "Basic Electronics",
       "pageTitle": "Basic Electronics",
-      "slug": "index"
+      "slug": "index",
+      "headings": [
+        {
+          "title": "Introduction",
+          "depth": 2,
+          "id": "introduction"
+        }
+      ]
     },
     "course_details.html": {
       "source": "src/course_details.md",
@@ -104,7 +140,29 @@
       "source": "src/software_install.md",
       "title": "Software - Basic Electronics",
       "pageTitle": "Software",
-      "slug": "software_install"
+      "slug": "software_install",
+      "headings": [
+        {
+          "title": "Arduino IDE",
+          "depth": 2,
+          "id": "arduino-ide"
+        },
+        {
+          "title": "Atom or VSCode",
+          "depth": 2,
+          "id": "atom-or-vscode"
+        },
+        {
+          "title": "PlatformIO IDE",
+          "depth": 2,
+          "id": "platformio-ide"
+        },
+        {
+          "title": "GNUPlot",
+          "depth": 2,
+          "id": "gnuplot"
+        }
+      ]
     }
   },
   "sources": {
