@@ -24,18 +24,3 @@ This is an introductory laboratory course on electronics. Concepts includes: pas
 Let's get started by installing the software required for the course.
 [Continue →](src/software_install.md)
 <!-- {p:.pull-box} -->
-
-----
-<!-- {hr: style='display:none'} -->
-
-**rscss** © 2015+, Rico Sta. Cruz. Released under the [MIT] License.<br>
-Authored and maintained by Rico Sta. Cruz with help from contributors ([list][contributors]).
-<!-- {p: style='display:none'} -->
-
-> [ricostacruz.com](http://ricostacruz.com) &nbsp;&middot;&nbsp;
-> GitHub [@rstacruz](https://github.com/rstacruz) &nbsp;&middot;&nbsp;
-> Twitter [@rstacruz](https://twitter.com/rstacruz)
-<!-- {blockquote: style='display:none'} -->
-
-[MIT]: http://mit-license.org/
-[contributors]: http://github.com/rstacruz/rscss/contributors
