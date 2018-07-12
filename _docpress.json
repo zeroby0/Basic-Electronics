@@ -1,0 +1,174 @@
+{
+  "toc": {
+    "sections": [
+      {
+        "title": "Basic Electronics",
+        "source": "README.md",
+        "url": "index.html",
+        "slug": "index",
+        "headings": [
+          {
+            "title": "Introduction",
+            "depth": 2,
+            "id": "introduction"
+          }
+        ],
+        "sections": [
+          {
+            "title": "Course Details",
+            "source": "docs/course_details.md",
+            "url": "course_details.html",
+            "slug": "course_details",
+            "headings": [
+              {
+                "title": "Exams",
+                "depth": 2,
+                "id": "exams"
+              },
+              {
+                "title": "Experiments",
+                "depth": 2,
+                "id": "experiments"
+              },
+              {
+                "title": "Textbook",
+                "depth": 2,
+                "id": "textbook"
+              },
+              {
+                "title": "Lab reports and assignments",
+                "depth": 2,
+                "id": "lab-reports-and-assignments"
+              },
+              {
+                "title": "Quizzes and Assignments",
+                "depth": 2,
+                "id": "quizzes-and-assignments"
+              },
+              {
+                "title": "Final Project",
+                "depth": 2,
+                "id": "final-project"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Software",
+        "source": "docs/software_install.md",
+        "url": "software_install.html",
+        "slug": "software_install",
+        "headings": [
+          {
+            "title": "Arduino IDE",
+            "depth": 2,
+            "id": "arduino-ide"
+          },
+          {
+            "title": "Atom or VSCode",
+            "depth": 2,
+            "id": "atom-or-vscode"
+          },
+          {
+            "title": "PlatformIO IDE",
+            "depth": 2,
+            "id": "platformio-ide"
+          },
+          {
+            "title": "GNUPlot",
+            "depth": 2,
+            "id": "gnuplot"
+          }
+        ]
+      }
+    ]
+  },
+  "index": {
+    "index.html": {
+      "source": "README.md",
+      "title": "Basic Electronics",
+      "pageTitle": "Basic Electronics",
+      "slug": "index",
+      "headings": [
+        {
+          "title": "Introduction",
+          "depth": 2,
+          "id": "introduction"
+        }
+      ]
+    },
+    "course_details.html": {
+      "source": "docs/course_details.md",
+      "title": "Course Details - Basic Electronics",
+      "pageTitle": "Course Details",
+      "slug": "course_details",
+      "headings": [
+        {
+          "title": "Exams",
+          "depth": 2,
+          "id": "exams"
+        },
+        {
+          "title": "Experiments",
+          "depth": 2,
+          "id": "experiments"
+        },
+        {
+          "title": "Textbook",
+          "depth": 2,
+          "id": "textbook"
+        },
+        {
+          "title": "Lab reports and assignments",
+          "depth": 2,
+          "id": "lab-reports-and-assignments"
+        },
+        {
+          "title": "Quizzes and Assignments",
+          "depth": 2,
+          "id": "quizzes-and-assignments"
+        },
+        {
+          "title": "Final Project",
+          "depth": 2,
+          "id": "final-project"
+        }
+      ]
+    },
+    "software_install.html": {
+      "source": "docs/software_install.md",
+      "title": "Software - Basic Electronics",
+      "pageTitle": "Software",
+      "slug": "software_install",
+      "headings": [
+        {
+          "title": "Arduino IDE",
+          "depth": 2,
+          "id": "arduino-ide"
+        },
+        {
+          "title": "Atom or VSCode",
+          "depth": 2,
+          "id": "atom-or-vscode"
+        },
+        {
+          "title": "PlatformIO IDE",
+          "depth": 2,
+          "id": "platformio-ide"
+        },
+        {
+          "title": "GNUPlot",
+          "depth": 2,
+          "id": "gnuplot"
+        }
+      ]
+    }
+  },
+  "sources": {
+    "README.md": "index.html",
+    "docs/course_details.md": "course_details.html",
+    "docs/software_install.md": "software_install.html",
+    "docs/docpress.json": "docpress.json"
+  }
+}
