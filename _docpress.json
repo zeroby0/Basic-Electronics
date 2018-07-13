@@ -107,8 +107,93 @@
                 "id": "quiz-questions-for-next-week"
               }
             ]
+          },
+          {
+            "title": "Lab 1",
+            "source": "docs/lab1/lab1.md",
+            "url": "lab1/lab1.html",
+            "slug": "lab1lab1",
+            "headings": [
+              {
+                "title": "Reading Resistors",
+                "depth": 2,
+                "id": "reading-resistors"
+              },
+              {
+                "title": "Kirchoffs law",
+                "depth": 2,
+                "id": "kirchoffs-law"
+              },
+              {
+                "title": "I-V characteriztics of Resistors",
+                "depth": 2,
+                "id": "i-v-characteriztics-of-resistors"
+              },
+              {
+                "title": "Voltage divider circuit",
+                "depth": 2,
+                "id": "voltage-divider-circuit"
+              }
+            ]
+          },
+          {
+            "title": "Lab 2",
+            "source": "docs/lab2/lab2.md",
+            "url": "lab2/lab2.html",
+            "slug": "lab2lab2",
+            "headings": [
+              {
+                "title": "Reading capacitors",
+                "depth": 2,
+                "id": "reading-capacitors"
+              },
+              {
+                "title": "Differentiator and Integrator",
+                "depth": 2,
+                "id": "differentiator-and-integrator"
+              },
+              {
+                "title": "Multisim",
+                "depth": 2,
+                "id": "multisim"
+              }
+            ]
+          },
+          {
+            "title": "Lab 3",
+            "source": "docs/lab3/lab3.md",
+            "url": "lab3/lab3.html",
+            "slug": "lab3lab3",
+            "headings": [
+              {
+                "title": "Low pass filter using capacitors",
+                "depth": 2,
+                "id": "low-pass-filter-using-capacitors"
+              },
+              {
+                "title": "High pass filter using capacitors",
+                "depth": 2,
+                "id": "high-pass-filter-using-capacitors"
+              },
+              {
+                "title": "RL circuit",
+                "depth": 2,
+                "id": "rl-circuit"
+              },
+              {
+                "title": "RLC circuit",
+                "depth": 2,
+                "id": "rlc-circuit"
+              }
+            ]
           }
         ]
+      },
+      {
+        "title": "Other Files",
+        "source": "docs/other_slides/otherslides.md",
+        "url": "other_slides/otherslides.html",
+        "slug": "other_slidesotherslides"
       }
     ]
   },
@@ -214,6 +299,91 @@
           "id": "quiz-questions-for-next-week"
         }
       ]
+    },
+    "lab1/lab1.html": {
+      "source": "docs/lab1/lab1.md",
+      "title": "Lab 1 - Basic Electronics",
+      "pageTitle": "Lab 1",
+      "slug": "lab1lab1",
+      "headings": [
+        {
+          "title": "Reading Resistors",
+          "depth": 2,
+          "id": "reading-resistors"
+        },
+        {
+          "title": "Kirchoffs law",
+          "depth": 2,
+          "id": "kirchoffs-law"
+        },
+        {
+          "title": "I-V characteriztics of Resistors",
+          "depth": 2,
+          "id": "i-v-characteriztics-of-resistors"
+        },
+        {
+          "title": "Voltage divider circuit",
+          "depth": 2,
+          "id": "voltage-divider-circuit"
+        }
+      ]
+    },
+    "lab2/lab2.html": {
+      "source": "docs/lab2/lab2.md",
+      "title": "Lab 2 - Basic Electronics",
+      "pageTitle": "Lab 2",
+      "slug": "lab2lab2",
+      "headings": [
+        {
+          "title": "Reading capacitors",
+          "depth": 2,
+          "id": "reading-capacitors"
+        },
+        {
+          "title": "Differentiator and Integrator",
+          "depth": 2,
+          "id": "differentiator-and-integrator"
+        },
+        {
+          "title": "Multisim",
+          "depth": 2,
+          "id": "multisim"
+        }
+      ]
+    },
+    "lab3/lab3.html": {
+      "source": "docs/lab3/lab3.md",
+      "title": "Lab 3 - Basic Electronics",
+      "pageTitle": "Lab 3",
+      "slug": "lab3lab3",
+      "headings": [
+        {
+          "title": "Low pass filter using capacitors",
+          "depth": 2,
+          "id": "low-pass-filter-using-capacitors"
+        },
+        {
+          "title": "High pass filter using capacitors",
+          "depth": 2,
+          "id": "high-pass-filter-using-capacitors"
+        },
+        {
+          "title": "RL circuit",
+          "depth": 2,
+          "id": "rl-circuit"
+        },
+        {
+          "title": "RLC circuit",
+          "depth": 2,
+          "id": "rlc-circuit"
+        }
+      ]
+    },
+    "other_slides/otherslides.html": {
+      "source": "docs/other_slides/otherslides.md",
+      "title": "Other Files - Basic Electronics",
+      "pageTitle": "Other Files",
+      "slug": "other_slidesotherslides"
     }
   },
   "sources": {
@@ -221,7 +391,40 @@
     "docs/course_details.md": "course_details.html",
     "docs/software_install.md": "software_install.html",
     "docs/lab0/lab0.md": "lab0/lab0.html",
+    "docs/lab1/lab1.md": "lab1/lab1.html",
+    "docs/lab2/lab2.md": "lab2/lab2.html",
+    "docs/lab3/lab3.md": "lab3/lab3.html",
+    "docs/other_slides/otherslides.md": "other_slides/otherslides.html",
     "docs/CNAME": "CNAME",
-    "docs/stylesheet.css": "stylesheet.css"
+    "docs/stylesheet.css": "stylesheet.css",
+    "docs/lab0/lab0.pdf": "lab0/lab0.pdf",
+    "docs/lab1/fig1.png": "lab1/fig1.png",
+    "docs/lab1/fig2.png": "lab1/fig2.png",
+    "docs/lab1/lab1.pdf": "lab1/lab1.pdf",
+    "docs/lab2/fig1.png": "lab2/fig1.png",
+    "docs/lab2/fig2.png": "lab2/fig2.png",
+    "docs/lab2/fig3.png": "lab2/fig3.png",
+    "docs/lab2/lab2.pdf": "lab2/lab2.pdf",
+    "docs/lab3/fig1.png": "lab3/fig1.png",
+    "docs/lab3/fig2.png": "lab3/fig2.png",
+    "docs/lab3/fig3.png": "lab3/fig3.png",
+    "docs/lab3/fig4.png": "lab3/fig4.png",
+    "docs/lab3/lab3.pdf": "lab3/lab3.pdf",
+    "docs/labs/lab10.pdf": "labs/lab10.pdf",
+    "docs/labs/lab11.pdf": "labs/lab11.pdf",
+    "docs/labs/lab4.pdf": "labs/lab4.pdf",
+    "docs/labs/lab5.pdf": "labs/lab5.pdf",
+    "docs/labs/lab6.pdf": "labs/lab6.pdf",
+    "docs/labs/lab7.pdf": "labs/lab7.pdf",
+    "docs/labs/lab8.pdf": "labs/lab8.pdf",
+    "docs/labs/lab9.pdf": "labs/lab9.pdf",
+    "docs/other_slides/Components_data_sheet.docx": "other_slides/Components_data_sheet.docx",
+    "docs/other_slides/ProtoCentral_Makers_Guide.pdf": "other_slides/ProtoCentral_Makers_Guide.pdf",
+    "docs/other_slides/components.doc": "other_slides/components.doc",
+    "docs/other_slides/oscilloscope-user-guide.pdf": "other_slides/oscilloscope-user-guide.pdf",
+    "docs/other_slides/poster-template.pptx": "other_slides/poster-template.pptx",
+    "docs/other_slides/resistor-color.pdf": "other_slides/resistor-color.pdf",
+    "docs/other_slides/safety.pdf": "other_slides/safety.pdf",
+    "docs/other_slides/syllabus.pdf": "other_slides/syllabus.pdf"
   }
 }

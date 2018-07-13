@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../assets/style.css?t=615badd5">
+    <link rel="stylesheet" href="../stylesheet.css?t=77de8bc1">
+    <script src="../assets/script.js?t=42463e55"></script>
+    <title>Lab 3 - Basic Electronics</title>
+    <meta name="viewport" content="width=device-width">
+    <script>if (false || window.location.hostname.indexOf("bel.aravindvoggu.in") === window.location.hostname.length - 19) {
+        (function(d,o,c,p,r,e,s){d['GoogleAnalyticsObject']=r;d[r]=d[r]||function(){(d[r].q=d[r].q||[]).push(arguments)},d[r].l=1*new Date();e=o.createElement(c),s=o.getElementsByTagName(c)[0];e.async=1;e.src=p;s.parentNode.insertBefore(e,s)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create',"UA-71610976-3",'auto')
+      }
+    </script>
+  </head>
+  <body class="-menu-visible">
+    <div class="doc-layout">
+      <div class="toggle menu-toggle js-menu-toggle"></div>
+      <div class="menu toc-menu">
+        <li class="menu-item -level-0 -parent">
+          <ul class="submenu">
+            <li class="menu-item -level-1 -parent"><a class="link title  link-index" href="../index.html">Basic Electronics</a>
+              <ul class="submenu">
+                <li class="menu-item -level-2"><a class="link title  link-course_details" href="../course_details.html">Course Details</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item -level-1"><a class="link title  link-software_install" href="../software_install.html">Software</a>
+            </li>
+            <li class="menu-item -level-1 -parent"><span class="title">Labs</span>
+              <ul class="submenu">
+                <li class="menu-item -level-2"><a class="link title  link-lab0lab0" href="../lab0/lab0.html">Lab 0</a>
+                </li>
+                <li class="menu-item -level-2"><a class="link title  link-lab1lab1" href="../lab1/lab1.html">Lab 1</a>
+                </li>
+                <li class="menu-item -level-2"><a class="link title  link-lab2lab2" href="../lab2/lab2.html">Lab 2</a>
+                </li>
+                <li class="menu-item -level-2"><a class="link title -active link-lab3lab3" href="../lab3/lab3.html">Lab 3</a>
+                  <ul class="headings heading-list">
+                    <li class="heading-item -depth-2"><a class="hlink link-low-pass-filter-using-capacitors" href="#low-pass-filter-using-capacitors">Low pass filter using capacitors</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a class="hlink link-high-pass-filter-using-capacitors" href="#high-pass-filter-using-capacitors">High pass filter using capacitors</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a class="hlink link-rl-circuit" href="#rl-circuit">RL circuit</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a class="hlink link-rlc-circuit" href="#rlc-circuit">RLC circuit</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item -level-1"><a class="link title  link-other_slidesotherslides" href="../other_slides/otherslides.html">Other Files</a>
+            </li>
+          </ul>
+        </li>
+      </div>
+      <div class="body page-lab3lab3">
+        <div class="header-nav">
+          <div class="right"><a class="iconlink" href="https://github.com/zeroby0/Basic-Electronics" data-title="zeroby0/Basic-Electronics">
+              <!-- span.title Open in GitHub--><span class="icon -github"></span></a>
+          </div>
+        </div>
+        <div class="markdown-body"><h1 id="rc-and-rl-circuits">RC and RL Circuits</h1>
+<p><a href="lab3.pdf">Download as PDF</a></p>
+<h2 id="low-pass-filter-using-capacitors">Low pass filter using capacitors</h2>
+<p>Construct the low pass filter as shown in Figure 1. Note that the input voltage applied is 10Vp-p.
+Calculate the filter&#x2019;s -3dB frequency point (f3dB). -3dB point is a point where the amplitude drops from by -3dB from the peak. What is the phase shift at different frequencies such as f3dB, 2f3dB, 4f3dB, 10f3dB, and at 0.1f3dB, 0.01f3dB.
+Draw Vout/Vin vs Frequency plot in log-log scale in your lab report. Plot also the phase shift with that of Frequency in your lab report.</p>
+<h2 id="high-pass-filter-using-capacitors">High pass filter using capacitors</h2>
+<p>Construct high pass filter as shown in Figure 2. Note that the input voltage applied is 10Vp-p. Calculate the filter&#x2019;s -3dB frequency point (f3dB). Draw Vout/Vin vs Frequency plot in log-log scale in your lab report. What is the phase shift at different frequencies such as Plot also the phase shift with that of Frequency in your lab report. f3dB, 2f3dB, 4f3dB, 10f3dB, and at 0.1f3dB, 0.01f3dB.</p>
+<h2 id="rl-circuit">RL circuit</h2>
+<p>Connect the RL circuit as shown in Figure 3. Provide an input voltage of 10Vp-p at a frequency of 700 Hz. Draw Vout/Vin vs Frequency plot in log-log scale in your lab report for this circuit. Sweep the frequency from 500 Hz to 30 KHz and check f3dB. Change the position of R and L in the circuit and observe the</p>
+<p><img src="fig1.png" alt="Figure 1">
+<img src="fig2.png" alt="Figure 2">
+<img src="fig3.png" alt="Figure 3"></p>
+<p>differance in output with respect to previous positions of R and L. What kind of the filter is RL in previous and updated configuration.</p>
+<h2 id="rlc-circuit">RLC circuit</h2>
+<p>Connect the RLC circuit in series as shown in Figure 4. Provide an input of 2 Vp-p. Determine the frequency where the output is very high. This frequency is called resonance frequency of this circuit. Plot the frequency response for this circuit. Remember frequency response suggests Output voltage versus frequency. Now apply a square wave of 2 Vp-p at the resonance frequency and check the output. Slowly decrease the frequency and observe decrease in output voltage. Decrease the frequency till you observe a sudden rise in the output voltage. Again note down the output voltage and input frequency. Repeat this till you find one more rise in the output voltage. Draw a table consisting of three output voltage and three input frequency. Do you see any relation between amplitudes and frequencies ? The peak frequency reduced by 1/3rd, the amplitude reduces close to 1/3rd and similarly the frequency reduced by 1/5th, the amplitude reduces by 1/5th. (The circuit works as a fourier analyzer detecting (1/3rd term) and (1/5th term). You may not appreciate the circuit at this level, but bring it back when you learn Signals and Systems course. This is one of the circuit which had revolutionized signal processing in hardware.</p>
+<p><img src="fig4.png" alt="Figure 4"></p>
+
+        </div>
+        <div class="footer-nav">
+          <div class="left"><a href="../lab2/lab2.html"><span class="title">Lab 2</span></a></div>
+          <div class="right"><a href="../other_slides/otherslides.html"><span class="label">Next: </span><span class="title">Other Files</span></a></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

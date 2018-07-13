@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../assets/style.css?t=615badd5">
+    <link rel="stylesheet" href="../stylesheet.css?t=77de8bc1">
+    <script src="../assets/script.js?t=42463e55"></script>
+    <title>Lab 2 - Basic Electronics</title>
+    <meta name="viewport" content="width=device-width">
+    <script>if (false || window.location.hostname.indexOf("bel.aravindvoggu.in") === window.location.hostname.length - 19) {
+        (function(d,o,c,p,r,e,s){d['GoogleAnalyticsObject']=r;d[r]=d[r]||function(){(d[r].q=d[r].q||[]).push(arguments)},d[r].l=1*new Date();e=o.createElement(c),s=o.getElementsByTagName(c)[0];e.async=1;e.src=p;s.parentNode.insertBefore(e,s)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create',"UA-71610976-3",'auto')
+      }
+    </script>
+  </head>
+  <body class="-menu-visible">
+    <div class="doc-layout">
+      <div class="toggle menu-toggle js-menu-toggle"></div>
+      <div class="menu toc-menu">
+        <li class="menu-item -level-0 -parent">
+          <ul class="submenu">
+            <li class="menu-item -level-1 -parent"><a class="link title  link-index" href="../index.html">Basic Electronics</a>
+              <ul class="submenu">
+                <li class="menu-item -level-2"><a class="link title  link-course_details" href="../course_details.html">Course Details</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item -level-1"><a class="link title  link-software_install" href="../software_install.html">Software</a>
+            </li>
+            <li class="menu-item -level-1 -parent"><span class="title">Labs</span>
+              <ul class="submenu">
+                <li class="menu-item -level-2"><a class="link title  link-lab0lab0" href="../lab0/lab0.html">Lab 0</a>
+                </li>
+                <li class="menu-item -level-2"><a class="link title  link-lab1lab1" href="../lab1/lab1.html">Lab 1</a>
+                </li>
+                <li class="menu-item -level-2"><a class="link title -active link-lab2lab2" href="../lab2/lab2.html">Lab 2</a>
+                  <ul class="headings heading-list">
+                    <li class="heading-item -depth-2"><a class="hlink link-reading-capacitors" href="#reading-capacitors">Reading capacitors</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a class="hlink link-differentiator-and-integrator" href="#differentiator-and-integrator">Differentiator and Integrator</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a class="hlink link-multisim" href="#multisim">Multisim</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item -level-2"><a class="link title  link-lab3lab3" href="../lab3/lab3.html">Lab 3</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item -level-1"><a class="link title  link-other_slidesotherslides" href="../other_slides/otherslides.html">Other Files</a>
+            </li>
+          </ul>
+        </li>
+      </div>
+      <div class="body page-lab2lab2">
+        <div class="header-nav">
+          <div class="right"><a class="iconlink" href="https://github.com/zeroby0/Basic-Electronics" data-title="zeroby0/Basic-Electronics">
+              <!-- span.title Open in GitHub--><span class="icon -github"></span></a>
+          </div>
+        </div>
+        <div class="markdown-body"><h1 id="rc-circuits">RC Circuits</h1>
+<p><a href="lab2.pdf">Download as PDF</a></p>
+<h2 id="reading-capacitors">Reading capacitors</h2>
+<ul>
+<li>Big capacitors (Electrolytic) capacitors are easy to read. For example: 500MF represents 500 micro farad. All big capacitors are polarized.</li>
+<li>Tantalum capacitors are silvered colored cylinders. They are also polarized with a + mark and metal nipple mark the positive end. For example 4R7&#x3BC; represents 4.7 &#x3BC;F. R marks the decimal places.</li>
+<li>The same capacitor may also be marked as +475K which means 47 &#xD7; 105 pF (4.7 &#x3BC;F). A pF is 10&#x2212;6 times samller to &#x3BC;F.</li>
+<li>Mylar capacitors are yellow cylinders. 0.01 M is jut 0.01 &#x3BC;F. These caps are not polarized; the black band marks the outer end of the foil winding. Orient them at random in your circuits.</li>
+<li>Cermaic capacitors are little orange like pancakes. Very good for high frequencies. For example the reading</li>
+</ul>
+<blockquote></blockquote>
+<pre><code>     2
+     Z5U
+     0.02 M
+     1 kV.
+</code></pre>
+<p>means Z5U : ceramic capacitor type
+M is 20 % tolerance marking. 0.02 means 0.02 &#x3BC;F. 560 M means 560 pF. 1 kV means the capacitor can stand 1000 V.</p>
+<ul>
+<li>CK05 are little boxes with their leads 0.2 inch apart. They are handy for inserting into a printed circuit. This has resistor like marking. 101K is 100 pF.</li>
+<li>In some cases, the capacitors polarity can be identified as cathode (shorter lead) and anode (long lead). Anode represents positive polarity, where as shorter one represents negative polarity.
+Capacitors conduct current only for a differential change in voltage across it. The capacitor can charge to a maximum posible ratings and can discharge back to close zero (ideally). This property of capacitor to retain its original value is heavily used in electronics industry in the form of switches, actuators, switches and many more. Relation of capacitance and voltage with charge is shown below:</li>
+</ul>
+<blockquote>
+<p>Q=CV</p>
+</blockquote>
+<ul>
+<li>
+<p>The instructor will explain the capacitor equation. Visualize how this curve will look like.
+<img src="fig1.png" alt="Figure 1"></p>
+</li>
+<li>
+<p>Check the RC (time-constant) while charging and discharging. Connect a Resistor of 100 k &#x3A9;and a capacitor of 10 &#x3BC;F as shown in the Figure 1. Note that this capacitor has a long terminal which is positive and short terminal which is the negative polarity.
+Apply a DC voltage of 5 V to the circuit. Measure the change in voltage across the capacitor in the Oscilloscope. For getting the signal on the Oscilloscope, you may have to turn the time/div and volts/div knob and position level appropriately. Notice that after few seconds, the voltage remains constant.</p>
+</li>
+<li>
+<p>Switch off the power supply and notice a drop in voltage across the capacitor.</p>
+</li>
+<li>
+<p>Now switch on the power supply i.e the capacitor gets charged. After 10 seconds, connect the wire going from the breadboard to the positive of the power supply, to ground of your circuit. Note that ground of your circuit should be common to instruments negative terminal. Check the discharge cycle and time it takes to discharge. What is the differance between the earlier discharge time and this particular discharge time.</p>
+</li>
+<li>
+<p>Let us apply AC square wave signal of 5 Vp-p, 1 Hz from the signal generator instead of DC supply. Check the charging and discharging of the signal. Capture one such cycle of charging and discharging with respect to input signal and produce the plots in the lab report. Determine the time constant for the output to drop to 37%. Does this equal the product RC ? Measure the time to climb from 0% to 63%. Is it same as that of time to fall to 37%.</p>
+</li>
+</ul>
+<h2 id="differentiator-and-integrator">Differentiator and Integrator</h2>
+<ul>
+<li>Differentiator circuit: Build the circuit on the breadboard as shown in the Figure 2. Check your output for triangle wave input of 10 Vp-p. Capture the image of input and output in CSV format and draw this plot in your lab report.</li>
+<li>Integrator circuit: Build the circuit on the breadboard as shown in Figure 3.
+Check your output for square wave input of 10 Vp-p. Capture the image of input and output in CSV
+format and draw this plot in your lab report.</li>
+</ul>
+<p><img src="fig2.png" alt="Figure 2">
+<img src="fig3.png" alt="Figure 3"></p>
+<h2 id="multisim">Multisim</h2>
+<p>Multisim is a simulation tool made available by National Instruments. This simulation tool is a drag and drop tool to simulate your electronic circuits. Your instructor will guide you in getting started with Multisim. You can use this tool, to build your circuit and then use the image in your lab reports.
+Repeat the I-V experiments for 10K &#x3A9;and 20K &#x3A9;. Also repeat the voltage-divider circuit of 10K &#x3A9;and 10K &#x3A9;and provide the plot of simulation in your lab report.
+Also verify whether the RC Differentiator and Integrator circuits work in Multisim as you have realized in Experiments.</p>
+
+        </div>
+        <div class="footer-nav">
+          <div class="left"><a href="../lab1/lab1.html"><span class="title">Lab 1</span></a></div>
+          <div class="right"><a href="../lab3/lab3.html"><span class="label">Next: </span><span class="title">Lab 3</span></a></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

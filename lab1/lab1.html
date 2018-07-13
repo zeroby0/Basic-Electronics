@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../assets/style.css?t=615badd5">
+    <link rel="stylesheet" href="../stylesheet.css?t=77de8bc1">
+    <script src="../assets/script.js?t=42463e55"></script>
+    <title>Lab 1 - Basic Electronics</title>
+    <meta name="viewport" content="width=device-width">
+    <script>if (false || window.location.hostname.indexOf("bel.aravindvoggu.in") === window.location.hostname.length - 19) {
+        (function(d,o,c,p,r,e,s){d['GoogleAnalyticsObject']=r;d[r]=d[r]||function(){(d[r].q=d[r].q||[]).push(arguments)},d[r].l=1*new Date();e=o.createElement(c),s=o.getElementsByTagName(c)[0];e.async=1;e.src=p;s.parentNode.insertBefore(e,s)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create',"UA-71610976-3",'auto')
+      }
+    </script>
+  </head>
+  <body class="-menu-visible">
+    <div class="doc-layout">
+      <div class="toggle menu-toggle js-menu-toggle"></div>
+      <div class="menu toc-menu">
+        <li class="menu-item -level-0 -parent">
+          <ul class="submenu">
+            <li class="menu-item -level-1 -parent"><a class="link title  link-index" href="../index.html">Basic Electronics</a>
+              <ul class="submenu">
+                <li class="menu-item -level-2"><a class="link title  link-course_details" href="../course_details.html">Course Details</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item -level-1"><a class="link title  link-software_install" href="../software_install.html">Software</a>
+            </li>
+            <li class="menu-item -level-1 -parent"><span class="title">Labs</span>
+              <ul class="submenu">
+                <li class="menu-item -level-2"><a class="link title  link-lab0lab0" href="../lab0/lab0.html">Lab 0</a>
+                </li>
+                <li class="menu-item -level-2"><a class="link title -active link-lab1lab1" href="../lab1/lab1.html">Lab 1</a>
+                  <ul class="headings heading-list">
+                    <li class="heading-item -depth-2"><a class="hlink link-reading-resistors" href="#reading-resistors">Reading Resistors</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a class="hlink link-kirchoffs-law" href="#kirchoffs-law">Kirchoffs law</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a class="hlink link-i-v-characteriztics-of-resistors" href="#i-v-characteriztics-of-resistors">I-V characteriztics of Resistors</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a class="hlink link-voltage-divider-circuit" href="#voltage-divider-circuit">Voltage divider circuit</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item -level-2"><a class="link title  link-lab2lab2" href="../lab2/lab2.html">Lab 2</a>
+                </li>
+                <li class="menu-item -level-2"><a class="link title  link-lab3lab3" href="../lab3/lab3.html">Lab 3</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item -level-1"><a class="link title  link-other_slidesotherslides" href="../other_slides/otherslides.html">Other Files</a>
+            </li>
+          </ul>
+        </li>
+      </div>
+      <div class="body page-lab1lab1">
+        <div class="header-nav">
+          <div class="right"><a class="iconlink" href="https://github.com/zeroby0/Basic-Electronics" data-title="zeroby0/Basic-Electronics">
+              <!-- span.title Open in GitHub--><span class="icon -github"></span></a>
+          </div>
+        </div>
+        <div class="markdown-body"><h1 id="resistive-circuits">Resistive Circuits</h1>
+<p>In this lab, you will learn little bit of everything: resistors, breadboard, and multimeter. This will get you started on building circuits.</p>
+<p><a href="lab1.pdf">Download this page as PDF</a></p>
+<h2 id="reading-resistors">Reading Resistors</h2>
+<ul>
+<li>Open the color coding PDF file from LMS or dropbox and read the (three) resistors at your end.</li>
+<li>Check the same using multimeter and breadboard at your end. Your instructor will show you how to
+use multimeter and breadboard.</li>
+<li>Horizontal bus (top and bottom two) lines in the breadboard are shorted. Vertical lines are shorted too. The breadboard is divided into two sections. Use wiring to check whether this is true.</li>
+</ul>
+<h2 id="kirchoffs-law">Kirchoffs law</h2>
+<ul>
+<li>Current Law: Sum of currents into a point is equal to sum of currents going out (conversation of charge).</li>
+<li>Voltage law: Sum of voltage drop in a closed circuit is zero. Application of these two laws are:
+Current in series of resistors remain same
+Voltage in a parallel of resistors remain same.</li>
+<li>Equivalent resistance for resistors in series, the larger resistor dominates. Equivalent resistance for resistors in parallel, the smaller resistor dominates.</li>
+</ul>
+<h2 id="i-v-characteriztics-of-resistors">I-V characteriztics of Resistors</h2>
+<ul>
+<li>Verify Ohms law for a resistor of 20 K &#x3A9;. (If you cannot find 20 K &#x3A9; then try getting multiple resistors in series or parallel combination). Apply 5 V using Power supply and measure the current using multimeter. Your instructor will explain the multimeter operations. Build your circuit as shown in Figure 1.
+Then decrease the voltage from 5 to -5 V in steps of 1 V. Change the wires/cables position in the Power supply to provide negative voltage. Note down the applied voltage and current read from multimeter.</li>
+<li>Repeat the same for 10 K &#x3A9;. Make sure that you plot a graph for 20 K &#x3A9;and 10 K &#x3A9;resistance values in one graph and provide a plot in your lab report.</li>
+</ul>
+<p><img src="fig1.png" alt="Figure 1"></p>
+<h2 id="voltage-divider-circuit">Voltage divider circuit</h2>
+<ul>
+<li>Voltage divider circuits: Make a voltage divider circuit of 10 K &#x3A9;and 10K &#x3A9;and measure the voltage across one of the 10 K &#x3A9;. Build a circuit as shown in the Figure 2.
+Vary the DC voltage from -5 to 5 V in steps of 1 V and measure the voltage across the lower 10 K &#x3A9;. Plot the graph in your lab report.</li>
+<li>Use the same circuit, replacing R2 with 100 k &#x3A9;and then provide your observation. This circuit shows that as R2 increases, more input voltage is produced at the output.</li>
+<li>Design rule of thumb: When circuit A drives circuit B: RA should be 1 RB then divider delivers 10
+10 11
+of the signal: attenuation is only 10% and that is good for most of the applications.</li>
+<li>Apply the AC (time varying) voltage to the divider circuit (with the design rule of thumb) and observe the output voltage.</li>
+</ul>
+<p><img src="fig2.png" alt="Figure 1"></p>
+
+        </div>
+        <div class="footer-nav">
+          <div class="left"><a href="../lab0/lab0.html"><span class="title">Lab 0</span></a></div>
+          <div class="right"><a href="../lab2/lab2.html"><span class="label">Next: </span><span class="title">Lab 2</span></a></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
