@@ -81,6 +81,34 @@
             "id": "gnuplot"
           }
         ]
+      },
+      {
+        "title": "Labs",
+        "sections": [
+          {
+            "title": "Lab 0",
+            "source": "docs/lab0/lab0.md",
+            "url": "lab0/lab0.html",
+            "slug": "lab0lab0",
+            "headings": [
+              {
+                "title": "Submitting lab reports",
+                "depth": 2,
+                "id": "submitting-lab-reports"
+              },
+              {
+                "title": "Oscilloscope",
+                "depth": 2,
+                "id": "oscilloscope"
+              },
+              {
+                "title": "Quiz questions for next week",
+                "depth": 2,
+                "id": "quiz-questions-for-next-week"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -163,12 +191,36 @@
           "id": "gnuplot"
         }
       ]
+    },
+    "lab0/lab0.html": {
+      "source": "docs/lab0/lab0.md",
+      "title": "Lab 0 - Basic Electronics",
+      "pageTitle": "Lab 0",
+      "slug": "lab0lab0",
+      "headings": [
+        {
+          "title": "Submitting lab reports",
+          "depth": 2,
+          "id": "submitting-lab-reports"
+        },
+        {
+          "title": "Oscilloscope",
+          "depth": 2,
+          "id": "oscilloscope"
+        },
+        {
+          "title": "Quiz questions for next week",
+          "depth": 2,
+          "id": "quiz-questions-for-next-week"
+        }
+      ]
     }
   },
   "sources": {
     "README.md": "index.html",
     "docs/course_details.md": "course_details.html",
     "docs/software_install.md": "software_install.html",
+    "docs/lab0/lab0.md": "lab0/lab0.html",
     "docs/stylesheet.css": "stylesheet.css"
   }
 }
