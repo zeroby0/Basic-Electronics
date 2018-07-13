@@ -3,6 +3,8 @@ Exploring Instruments
 
 In this experiments, you will be briefly exploring instruments such as Two channel Oscilloscope, DC three channel power supply, and Signal generator. Although we may not end up exploring all the functionalities of these instruments, we will go over some of the important ones. The Oscillscope user manual is uploaded in the dropbox and LMS. The signal generator manual and power supply manuals will be provided to you during the lab hours.
 
+[Download this page as PDF](lab0.pdf)
+
 Submitting lab reports
 ----------------------
 
