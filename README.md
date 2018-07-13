@@ -4,7 +4,7 @@
 ----
 <!-- {hr: style='display:none'} -->
 
-# Basic Electronics
+# Basic Electronics - Lab
 
 <!-- {h1:.massive-header.-with-tagline} -->
 

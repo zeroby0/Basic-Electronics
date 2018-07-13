@@ -32,7 +32,7 @@ GNUPlot
 
 GNUPlot is an amazing tool to plot data. The plot can be customised in various ways and GNUPlot can process large amounts of data. Excel freezes when using large amounts of data.
 
-[Google](http://lmgtfy.com/?q=Install+gnuplot) the instructions to install GNUPlot for your operating system.
+[Google](https://google.com/search?q=install+gnuplot) the instructions to install GNUPlot for your operating system.
 
 
 
