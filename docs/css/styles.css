@@ -1,5 +1,5 @@
 .markdown-body::after { 
-    content: "Copyright (c) Dr. Madhav Rao, IIITB. The content of this website is support material for the 'Basic Electronics' course at IIIT Bangalore. Personal / Non-commercial use only. Maintained by Aravind Reddy V.";
+    content: "Copyright (c) Dr. Madhav Rao, IIITB. The content of this website is support material for the 'Basic Electronics' course at IIIT Bangalore. Personal / Non-commercial use only. Maintained by Aravind Reddy V. Built with Docpress";
     color: grey;
     padding-top: 3rem;
     padding-bottom: 3rem;
