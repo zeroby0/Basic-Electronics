@@ -1,7 +1,8 @@
 {
   "github": "zeroby0/Basic-Electronics",
   "css": [
-    "docs/stylesheet.css"
+    "docs/css/base.css",
+    "docs/css/styles.css"
   ],
   "markdown": {
     "plugins": {
